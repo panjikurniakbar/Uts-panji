@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/panji"
+        android:background="#4D77FF"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#151D3B"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Panji kurni akbar"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#D82148"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="181103507"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#6EBF8B"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="kelas a3"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#af895e"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="panjikurnia2610@gmail.com"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnexit"
+            android:layout_width="392dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingStart="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginEnd="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:text="EXIT"
+            android:textColor="#b20600" />
+    </LinearLayout>
+
+</LinearLayout>
